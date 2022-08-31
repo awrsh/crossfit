@@ -205,3 +205,13 @@ body {
     justify-content: space-around !important;
   }
 }
+
+
+@media (min-width: 992px) {
+  #sque {
+    top: 0;
+  }
+  #sque svg {
+    transform: rotate(45deg);
+  }
+}
