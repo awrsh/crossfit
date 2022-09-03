@@ -141,7 +141,12 @@ body {
 .intro-img-container img {
   width: 100%;
 }
-
+.navbar-collapse {
+  z-index: 9;
+}
+.navbar-brand {
+  z-index: 10;
+}
 @media only screen and (max-width: 600px) {
   #ciseven {
     width: 100%;
